@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_5"
     tools:context=".login">
 
     <ImageView
@@ -59,6 +58,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="90dp"
         android:text="send otp"
+        android:shadowColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextPhone"
         app:layout_constraintHorizontal_bias="1.0"
@@ -73,11 +73,12 @@
         android:layout_height="50dp"
         android:layout_marginTop="90dp"
         android:text="G Login"
+        android:onClick="g"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editTextPhone"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextPhone"
         app:layout_constraintTop_toTopOf="@+id/editTextPhone"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.313" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
